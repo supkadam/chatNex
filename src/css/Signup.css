@@ -1,0 +1,45 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/pinkbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.signup-main{
+    width: 330px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.579);
+    row-gap: 20px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #5e697c;
+}
+
+#loginbtn{
+    height: 45px; 
+    width: fit-content;
+    font-size:18px; 
+    background-color:#b0acf0;
+    color:white; 
+    font-weight:600;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding: 10px;
+}
