@@ -30,7 +30,7 @@
 
 #btn{
     height: 45px; 
-    width: 100px;
+    width: fit-content;
     font-size:18px; 
     background-color:#b0acf0;
     color:white; 
@@ -40,5 +40,5 @@
     outline: none;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 2px 3px 5px black, 5px 5px 8px blue, 2px 2px 4px black;
+    padding: 5px;
 }
